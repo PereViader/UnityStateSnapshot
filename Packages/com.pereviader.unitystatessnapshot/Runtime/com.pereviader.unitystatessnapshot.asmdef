@@ -1,0 +1,33 @@
+{
+    "name": "com.pereviader.unitystatessnapshot",
+    "rootNamespace": "PereViader.UnityStateSnapshot",
+    "references": [
+        "UnityEngine.UI",
+        "Unity.TextMeshPro"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": true,
+    "precompiledReferences": [],
+    "autoReferenced": false,
+    "defineConstraints": [],
+    "versionDefines": [
+        {
+            "name": "com.unity.ugui",
+            "expression": "1.0.0",
+            "define": "UNITY_UGUI_PRESENT"
+        },
+        {
+            "name": "com.unity.ugui",
+            "expression": "1.0.0",
+            "define": "UNITY_TMP_PRESENT"
+        },
+        {
+            "name": "com.unity.textmeshpro",
+            "expression": "1.0.0",
+            "define": "UNITY_TMP_PRESENT"
+        }
+    ],
+    "noEngineReferences": false
+}

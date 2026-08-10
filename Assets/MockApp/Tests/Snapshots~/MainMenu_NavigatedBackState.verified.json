@@ -1,0 +1,1747 @@
+{
+    "Name": "Canvas",
+    "ActiveSelf": true,
+    "ActiveInHierarchy": true,
+    "Tag": "Untagged",
+    "Layer": "Default",
+    "Transform": {
+        "LocalPosition": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 0.0
+        },
+        "LocalEulerAngles": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 0.0
+        },
+        "LocalScale": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+        },
+        "RectTransform": {
+            "AnchoredPosition": {
+                "X": 0.0,
+                "Y": 0.0
+            },
+            "SizeDelta": {
+                "X": 0.0,
+                "Y": 0.0
+            },
+            "AnchorMin": {
+                "X": 0.0,
+                "Y": 0.0
+            },
+            "AnchorMax": {
+                "X": 0.0,
+                "Y": 0.0
+            },
+            "Pivot": {
+                "X": 0.5,
+                "Y": 0.5
+            }
+        }
+    },
+    "Components": [
+        {
+            "TypeName": "Canvas",
+            "Enabled": true,
+            "StateEntries": [
+                {
+                    "Key": "additionalShaderChannels",
+                    "Value": "None"
+                },
+                {
+                    "Key": "isRootCanvas",
+                    "Value": "true"
+                },
+                {
+                    "Key": "overridePixelPerfect",
+                    "Value": "false"
+                },
+                {
+                    "Key": "overrideSorting",
+                    "Value": "false"
+                },
+                {
+                    "Key": "pixelPerfect",
+                    "Value": "false"
+                },
+                {
+                    "Key": "planeDistance",
+                    "Value": "100"
+                },
+                {
+                    "Key": "referencePixelsPerUnit",
+                    "Value": "100"
+                },
+                {
+                    "Key": "renderMode",
+                    "Value": "ScreenSpaceOverlay"
+                },
+                {
+                    "Key": "sortingLayerID",
+                    "Value": "0"
+                },
+                {
+                    "Key": "sortingLayerName",
+                    "Value": "Default"
+                },
+                {
+                    "Key": "sortingOrder",
+                    "Value": "0"
+                },
+                {
+                    "Key": "targetDisplay",
+                    "Value": "0"
+                }
+            ]
+        },
+        {
+            "TypeName": "CanvasScaler",
+            "Enabled": true,
+            "StateEntries": [
+                {
+                    "Key": "defaultSpriteDPI",
+                    "Value": "96"
+                },
+                {
+                    "Key": "dynamicPixelsPerUnit",
+                    "Value": "1"
+                },
+                {
+                    "Key": "fallbackScreenDPI",
+                    "Value": "96"
+                },
+                {
+                    "Key": "m_DefaultSpriteDPI",
+                    "Value": "96"
+                },
+                {
+                    "Key": "m_DynamicPixelsPerUnit",
+                    "Value": "1"
+                },
+                {
+                    "Key": "m_FallbackScreenDPI",
+                    "Value": "96"
+                },
+                {
+                    "Key": "m_MatchWidthOrHeight",
+                    "Value": "0"
+                },
+                {
+                    "Key": "m_PhysicalUnit",
+                    "Value": "Points"
+                },
+                {
+                    "Key": "m_PresetInfoIsWorld",
+                    "Value": "false"
+                },
+                {
+                    "Key": "m_ReferencePixelsPerUnit",
+                    "Value": "100"
+                },
+                {
+                    "Key": "m_ReferenceResolution",
+                    "Value": "(800, 600)"
+                },
+                {
+                    "Key": "m_ScaleFactor",
+                    "Value": "1"
+                },
+                {
+                    "Key": "m_ScreenMatchMode",
+                    "Value": "MatchWidthOrHeight"
+                },
+                {
+                    "Key": "m_UiScaleMode",
+                    "Value": "ConstantPixelSize"
+                },
+                {
+                    "Key": "matchWidthOrHeight",
+                    "Value": "0"
+                },
+                {
+                    "Key": "physicalUnit",
+                    "Value": "Points"
+                },
+                {
+                    "Key": "referencePixelsPerUnit",
+                    "Value": "100"
+                },
+                {
+                    "Key": "referenceResolution",
+                    "Value": "(800, 600)"
+                },
+                {
+                    "Key": "scaleFactor",
+                    "Value": "1"
+                },
+                {
+                    "Key": "screenMatchMode",
+                    "Value": "MatchWidthOrHeight"
+                },
+                {
+                    "Key": "uiScaleMode",
+                    "Value": "ConstantPixelSize"
+                }
+            ]
+        },
+        {
+            "TypeName": "GraphicRaycaster",
+            "Enabled": true,
+            "StateEntries": [
+                {
+                    "Key": "blockingMask",
+                    "Value": "{value: -1}"
+                },
+                {
+                    "Key": "blockingObjects",
+                    "Value": "None"
+                },
+                {
+                    "Key": "eventCamera",
+                    "Value": "null"
+                },
+                {
+                    "Key": "ignoreReversedGraphics",
+                    "Value": "true"
+                },
+                {
+                    "Key": "m_BlockingMask",
+                    "Value": "{value: -1}"
+                },
+                {
+                    "Key": "m_BlockingObjects",
+                    "Value": "None"
+                },
+                {
+                    "Key": "m_IgnoreReversedGraphics",
+                    "Value": "true"
+                },
+                {
+                    "Key": "renderOrderPriority",
+                    "Value": "0"
+                },
+                {
+                    "Key": "rootRaycaster",
+                    "Value": "Ref<GraphicRaycaster>(Canvas)"
+                },
+                {
+                    "Key": "sortOrderPriority",
+                    "Value": "0"
+                }
+            ]
+        }
+    ],
+    "Children": [
+        {
+            "Name": "MainMenuApp",
+            "ActiveSelf": true,
+            "ActiveInHierarchy": true,
+            "Tag": "Untagged",
+            "Layer": "Default",
+            "Transform": {
+                "LocalPosition": {
+                    "X": 0.0,
+                    "Y": 0.0,
+                    "Z": 0.0
+                },
+                "LocalEulerAngles": {
+                    "X": 0.0,
+                    "Y": 0.0,
+                    "Z": 0.0
+                },
+                "LocalScale": {
+                    "X": 1.0,
+                    "Y": 1.0,
+                    "Z": 1.0
+                },
+                "RectTransform": {
+                    "AnchoredPosition": {
+                        "X": 0.0,
+                        "Y": 0.0
+                    },
+                    "SizeDelta": {
+                        "X": 0.0,
+                        "Y": 0.0
+                    },
+                    "AnchorMin": {
+                        "X": 0.0,
+                        "Y": 0.0
+                    },
+                    "AnchorMax": {
+                        "X": 0.0,
+                        "Y": 0.0
+                    },
+                    "Pivot": {
+                        "X": 0.0,
+                        "Y": 0.0
+                    }
+                }
+            },
+            "Components": [
+                {
+                    "TypeName": "MainMenuController",
+                    "Enabled": true,
+                    "StateEntries": [
+                        {
+                            "Key": "ActiveScreen",
+                            "Value": "MainMenu"
+                        },
+                        {
+                            "Key": "ExitButton",
+                            "Value": "Ref<MockButtonUI>(ExitButton)"
+                        },
+                        {
+                            "Key": "GameBackButton",
+                            "Value": "Ref<MockButtonUI>(GameBackButton)"
+                        },
+                        {
+                            "Key": "GameTitle",
+                            "Value": "Ref<Text>(GameTitleText)"
+                        },
+                        {
+                            "Key": "GameView",
+                            "Value": "Ref<GameObject>(GameView)"
+                        },
+                        {
+                            "Key": "MainMenuTitle",
+                            "Value": "Ref<Text>(TitleText)"
+                        },
+                        {
+                            "Key": "MainMenuView",
+                            "Value": "Ref<GameObject>(MainMenuView)"
+                        },
+                        {
+                            "Key": "SettingsBackButton",
+                            "Value": "Ref<MockButtonUI>(SettingsBackButton)"
+                        },
+                        {
+                            "Key": "SettingsButton",
+                            "Value": "Ref<MockButtonUI>(SettingsButton)"
+                        },
+                        {
+                            "Key": "SettingsTitle",
+                            "Value": "Ref<Text>(SettingsTitleText)"
+                        },
+                        {
+                            "Key": "SettingsView",
+                            "Value": "Ref<GameObject>(SettingsView)"
+                        },
+                        {
+                            "Key": "StartGameButton",
+                            "Value": "Ref<MockButtonUI>(StartGameButton)"
+                        }
+                    ]
+                }
+            ],
+            "Children": []
+        },
+        {
+            "Name": "MainMenuView",
+            "ActiveSelf": true,
+            "ActiveInHierarchy": true,
+            "Tag": "Untagged",
+            "Layer": "Default",
+            "Transform": {
+                "LocalPosition": {
+                    "X": 0.0,
+                    "Y": 0.0,
+                    "Z": 0.0
+                },
+                "LocalEulerAngles": {
+                    "X": 0.0,
+                    "Y": 0.0,
+                    "Z": 0.0
+                },
+                "LocalScale": {
+                    "X": 1.0,
+                    "Y": 1.0,
+                    "Z": 1.0
+                },
+                "RectTransform": {
+                    "AnchoredPosition": {
+                        "X": 0.0,
+                        "Y": 0.0
+                    },
+                    "SizeDelta": {
+                        "X": 0.0,
+                        "Y": 0.0
+                    },
+                    "AnchorMin": {
+                        "X": 0.0,
+                        "Y": 0.0
+                    },
+                    "AnchorMax": {
+                        "X": 1.0,
+                        "Y": 1.0
+                    },
+                    "Pivot": {
+                        "X": 0.5,
+                        "Y": 0.5
+                    }
+                }
+            },
+            "Components": [
+                {
+                    "TypeName": "Image",
+                    "Enabled": true,
+                    "StateEntries": [
+                        {
+                            "Key": "Color",
+                            "Value": "#1A1A1AE6"
+                        },
+                        {
+                            "Key": "RaycastTarget",
+                            "Value": "true"
+                        },
+                        {
+                            "Key": "Sprite",
+                            "Value": "null"
+                        },
+                        {
+                            "Key": "Type",
+                            "Value": "Simple"
+                        }
+                    ]
+                }
+            ],
+            "Children": [
+                {
+                    "Name": "TitleText",
+                    "ActiveSelf": true,
+                    "ActiveInHierarchy": true,
+                    "Tag": "Untagged",
+                    "Layer": "Default",
+                    "Transform": {
+                        "LocalPosition": {
+                            "X": 0.0,
+                            "Y": 0.0,
+                            "Z": 0.0
+                        },
+                        "LocalEulerAngles": {
+                            "X": 0.0,
+                            "Y": 0.0,
+                            "Z": 0.0
+                        },
+                        "LocalScale": {
+                            "X": 1.0,
+                            "Y": 1.0,
+                            "Z": 1.0
+                        },
+                        "RectTransform": {
+                            "AnchoredPosition": {
+                                "X": 0.0,
+                                "Y": 0.0
+                            },
+                            "SizeDelta": {
+                                "X": 100.0,
+                                "Y": 100.0
+                            },
+                            "AnchorMin": {
+                                "X": 0.5,
+                                "Y": 0.5
+                            },
+                            "AnchorMax": {
+                                "X": 0.5,
+                                "Y": 0.5
+                            },
+                            "Pivot": {
+                                "X": 0.5,
+                                "Y": 0.5
+                            }
+                        }
+                    },
+                    "Components": [
+                        {
+                            "TypeName": "Text",
+                            "Enabled": true,
+                            "StateEntries": [
+                                {
+                                    "Key": "Alignment",
+                                    "Value": "MiddleCenter"
+                                },
+                                {
+                                    "Key": "Color",
+                                    "Value": "#FFFFFFFF"
+                                },
+                                {
+                                    "Key": "FontSize",
+                                    "Value": "24"
+                                },
+                                {
+                                    "Key": "Text",
+                                    "Value": "Main Menu"
+                                }
+                            ]
+                        }
+                    ],
+                    "Children": []
+                },
+                {
+                    "Name": "StartGameButton",
+                    "ActiveSelf": true,
+                    "ActiveInHierarchy": true,
+                    "Tag": "Untagged",
+                    "Layer": "Default",
+                    "Transform": {
+                        "LocalPosition": {
+                            "X": 0.0,
+                            "Y": 0.0,
+                            "Z": 0.0
+                        },
+                        "LocalEulerAngles": {
+                            "X": 0.0,
+                            "Y": 0.0,
+                            "Z": 0.0
+                        },
+                        "LocalScale": {
+                            "X": 1.0,
+                            "Y": 1.0,
+                            "Z": 1.0
+                        },
+                        "RectTransform": {
+                            "AnchoredPosition": {
+                                "X": 0.0,
+                                "Y": 0.0
+                            },
+                            "SizeDelta": {
+                                "X": 100.0,
+                                "Y": 100.0
+                            },
+                            "AnchorMin": {
+                                "X": 0.5,
+                                "Y": 0.5
+                            },
+                            "AnchorMax": {
+                                "X": 0.5,
+                                "Y": 0.5
+                            },
+                            "Pivot": {
+                                "X": 0.5,
+                                "Y": 0.5
+                            }
+                        }
+                    },
+                    "Components": [
+                        {
+                            "TypeName": "Image",
+                            "Enabled": true,
+                            "StateEntries": [
+                                {
+                                    "Key": "Color",
+                                    "Value": "#808080FF"
+                                },
+                                {
+                                    "Key": "RaycastTarget",
+                                    "Value": "true"
+                                },
+                                {
+                                    "Key": "Sprite",
+                                    "Value": "null"
+                                },
+                                {
+                                    "Key": "Type",
+                                    "Value": "Simple"
+                                }
+                            ]
+                        },
+                        {
+                            "TypeName": "Button",
+                            "Enabled": true,
+                            "StateEntries": [
+                                {
+                                    "Key": "Interactable",
+                                    "Value": "true"
+                                },
+                                {
+                                    "Key": "IsSelected",
+                                    "Value": "false"
+                                },
+                                {
+                                    "Key": "PersistentListenerCount",
+                                    "Value": "0"
+                                },
+                                {
+                                    "Key": "SelectionState",
+                                    "Value": "Normal"
+                                }
+                            ]
+                        },
+                        {
+                            "TypeName": "MockButtonUI",
+                            "Enabled": true,
+                            "StateEntries": [
+                                {
+                                    "Key": "Button",
+                                    "Value": "Ref<Button>(StartGameButton)"
+                                },
+                                {
+                                    "Key": "IsHighlighted",
+                                    "Value": "false"
+                                },
+                                {
+                                    "Key": "IsSelected",
+                                    "Value": "false"
+                                },
+                                {
+                                    "Key": "Label",
+                                    "Value": "Ref<Text>(Text)"
+                                },
+                                {
+                                    "Key": "_button",
+                                    "Value": "Ref<Button>(StartGameButton)"
+                                },
+                                {
+                                    "Key": "_label",
+                                    "Value": "null"
+                                }
+                            ]
+                        }
+                    ],
+                    "Children": [
+                        {
+                            "Name": "Text",
+                            "ActiveSelf": true,
+                            "ActiveInHierarchy": true,
+                            "Tag": "Untagged",
+                            "Layer": "Default",
+                            "Transform": {
+                                "LocalPosition": {
+                                    "X": 0.0,
+                                    "Y": 0.0,
+                                    "Z": 0.0
+                                },
+                                "LocalEulerAngles": {
+                                    "X": 0.0,
+                                    "Y": 0.0,
+                                    "Z": 0.0
+                                },
+                                "LocalScale": {
+                                    "X": 1.0,
+                                    "Y": 1.0,
+                                    "Z": 1.0
+                                },
+                                "RectTransform": {
+                                    "AnchoredPosition": {
+                                        "X": 0.0,
+                                        "Y": 0.0
+                                    },
+                                    "SizeDelta": {
+                                        "X": 100.0,
+                                        "Y": 100.0
+                                    },
+                                    "AnchorMin": {
+                                        "X": 0.5,
+                                        "Y": 0.5
+                                    },
+                                    "AnchorMax": {
+                                        "X": 0.5,
+                                        "Y": 0.5
+                                    },
+                                    "Pivot": {
+                                        "X": 0.5,
+                                        "Y": 0.5
+                                    }
+                                }
+                            },
+                            "Components": [
+                                {
+                                    "TypeName": "Text",
+                                    "Enabled": true,
+                                    "StateEntries": [
+                                        {
+                                            "Key": "Alignment",
+                                            "Value": "MiddleCenter"
+                                        },
+                                        {
+                                            "Key": "Color",
+                                            "Value": "#FFFFFFFF"
+                                        },
+                                        {
+                                            "Key": "FontSize",
+                                            "Value": "24"
+                                        },
+                                        {
+                                            "Key": "Text",
+                                            "Value": "Start Game"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "Children": []
+                        }
+                    ]
+                },
+                {
+                    "Name": "SettingsButton",
+                    "ActiveSelf": true,
+                    "ActiveInHierarchy": true,
+                    "Tag": "Untagged",
+                    "Layer": "Default",
+                    "Transform": {
+                        "LocalPosition": {
+                            "X": 0.0,
+                            "Y": 0.0,
+                            "Z": 0.0
+                        },
+                        "LocalEulerAngles": {
+                            "X": 0.0,
+                            "Y": 0.0,
+                            "Z": 0.0
+                        },
+                        "LocalScale": {
+                            "X": 1.0,
+                            "Y": 1.0,
+                            "Z": 1.0
+                        },
+                        "RectTransform": {
+                            "AnchoredPosition": {
+                                "X": 0.0,
+                                "Y": 0.0
+                            },
+                            "SizeDelta": {
+                                "X": 100.0,
+                                "Y": 100.0
+                            },
+                            "AnchorMin": {
+                                "X": 0.5,
+                                "Y": 0.5
+                            },
+                            "AnchorMax": {
+                                "X": 0.5,
+                                "Y": 0.5
+                            },
+                            "Pivot": {
+                                "X": 0.5,
+                                "Y": 0.5
+                            }
+                        }
+                    },
+                    "Components": [
+                        {
+                            "TypeName": "Image",
+                            "Enabled": true,
+                            "StateEntries": [
+                                {
+                                    "Key": "Color",
+                                    "Value": "#808080FF"
+                                },
+                                {
+                                    "Key": "RaycastTarget",
+                                    "Value": "true"
+                                },
+                                {
+                                    "Key": "Sprite",
+                                    "Value": "null"
+                                },
+                                {
+                                    "Key": "Type",
+                                    "Value": "Simple"
+                                }
+                            ]
+                        },
+                        {
+                            "TypeName": "Button",
+                            "Enabled": true,
+                            "StateEntries": [
+                                {
+                                    "Key": "Interactable",
+                                    "Value": "true"
+                                },
+                                {
+                                    "Key": "IsSelected",
+                                    "Value": "false"
+                                },
+                                {
+                                    "Key": "PersistentListenerCount",
+                                    "Value": "0"
+                                },
+                                {
+                                    "Key": "SelectionState",
+                                    "Value": "Normal"
+                                }
+                            ]
+                        },
+                        {
+                            "TypeName": "MockButtonUI",
+                            "Enabled": true,
+                            "StateEntries": [
+                                {
+                                    "Key": "Button",
+                                    "Value": "Ref<Button>(SettingsButton)"
+                                },
+                                {
+                                    "Key": "IsHighlighted",
+                                    "Value": "false"
+                                },
+                                {
+                                    "Key": "IsSelected",
+                                    "Value": "false"
+                                },
+                                {
+                                    "Key": "Label",
+                                    "Value": "Ref<Text>(Text)"
+                                },
+                                {
+                                    "Key": "_button",
+                                    "Value": "Ref<Button>(SettingsButton)"
+                                },
+                                {
+                                    "Key": "_label",
+                                    "Value": "null"
+                                }
+                            ]
+                        }
+                    ],
+                    "Children": [
+                        {
+                            "Name": "Text",
+                            "ActiveSelf": true,
+                            "ActiveInHierarchy": true,
+                            "Tag": "Untagged",
+                            "Layer": "Default",
+                            "Transform": {
+                                "LocalPosition": {
+                                    "X": 0.0,
+                                    "Y": 0.0,
+                                    "Z": 0.0
+                                },
+                                "LocalEulerAngles": {
+                                    "X": 0.0,
+                                    "Y": 0.0,
+                                    "Z": 0.0
+                                },
+                                "LocalScale": {
+                                    "X": 1.0,
+                                    "Y": 1.0,
+                                    "Z": 1.0
+                                },
+                                "RectTransform": {
+                                    "AnchoredPosition": {
+                                        "X": 0.0,
+                                        "Y": 0.0
+                                    },
+                                    "SizeDelta": {
+                                        "X": 100.0,
+                                        "Y": 100.0
+                                    },
+                                    "AnchorMin": {
+                                        "X": 0.5,
+                                        "Y": 0.5
+                                    },
+                                    "AnchorMax": {
+                                        "X": 0.5,
+                                        "Y": 0.5
+                                    },
+                                    "Pivot": {
+                                        "X": 0.5,
+                                        "Y": 0.5
+                                    }
+                                }
+                            },
+                            "Components": [
+                                {
+                                    "TypeName": "Text",
+                                    "Enabled": true,
+                                    "StateEntries": [
+                                        {
+                                            "Key": "Alignment",
+                                            "Value": "MiddleCenter"
+                                        },
+                                        {
+                                            "Key": "Color",
+                                            "Value": "#FFFFFFFF"
+                                        },
+                                        {
+                                            "Key": "FontSize",
+                                            "Value": "24"
+                                        },
+                                        {
+                                            "Key": "Text",
+                                            "Value": "Settings"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "Children": []
+                        }
+                    ]
+                },
+                {
+                    "Name": "ExitButton",
+                    "ActiveSelf": true,
+                    "ActiveInHierarchy": true,
+                    "Tag": "Untagged",
+                    "Layer": "Default",
+                    "Transform": {
+                        "LocalPosition": {
+                            "X": 0.0,
+                            "Y": 0.0,
+                            "Z": 0.0
+                        },
+                        "LocalEulerAngles": {
+                            "X": 0.0,
+                            "Y": 0.0,
+                            "Z": 0.0
+                        },
+                        "LocalScale": {
+                            "X": 1.0,
+                            "Y": 1.0,
+                            "Z": 1.0
+                        },
+                        "RectTransform": {
+                            "AnchoredPosition": {
+                                "X": 0.0,
+                                "Y": 0.0
+                            },
+                            "SizeDelta": {
+                                "X": 100.0,
+                                "Y": 100.0
+                            },
+                            "AnchorMin": {
+                                "X": 0.5,
+                                "Y": 0.5
+                            },
+                            "AnchorMax": {
+                                "X": 0.5,
+                                "Y": 0.5
+                            },
+                            "Pivot": {
+                                "X": 0.5,
+                                "Y": 0.5
+                            }
+                        }
+                    },
+                    "Components": [
+                        {
+                            "TypeName": "Image",
+                            "Enabled": true,
+                            "StateEntries": [
+                                {
+                                    "Key": "Color",
+                                    "Value": "#808080FF"
+                                },
+                                {
+                                    "Key": "RaycastTarget",
+                                    "Value": "true"
+                                },
+                                {
+                                    "Key": "Sprite",
+                                    "Value": "null"
+                                },
+                                {
+                                    "Key": "Type",
+                                    "Value": "Simple"
+                                }
+                            ]
+                        },
+                        {
+                            "TypeName": "Button",
+                            "Enabled": true,
+                            "StateEntries": [
+                                {
+                                    "Key": "Interactable",
+                                    "Value": "true"
+                                },
+                                {
+                                    "Key": "IsSelected",
+                                    "Value": "false"
+                                },
+                                {
+                                    "Key": "PersistentListenerCount",
+                                    "Value": "0"
+                                },
+                                {
+                                    "Key": "SelectionState",
+                                    "Value": "Normal"
+                                }
+                            ]
+                        },
+                        {
+                            "TypeName": "MockButtonUI",
+                            "Enabled": true,
+                            "StateEntries": [
+                                {
+                                    "Key": "Button",
+                                    "Value": "Ref<Button>(ExitButton)"
+                                },
+                                {
+                                    "Key": "IsHighlighted",
+                                    "Value": "false"
+                                },
+                                {
+                                    "Key": "IsSelected",
+                                    "Value": "false"
+                                },
+                                {
+                                    "Key": "Label",
+                                    "Value": "Ref<Text>(Text)"
+                                },
+                                {
+                                    "Key": "_button",
+                                    "Value": "null"
+                                },
+                                {
+                                    "Key": "_label",
+                                    "Value": "null"
+                                }
+                            ]
+                        }
+                    ],
+                    "Children": [
+                        {
+                            "Name": "Text",
+                            "ActiveSelf": true,
+                            "ActiveInHierarchy": true,
+                            "Tag": "Untagged",
+                            "Layer": "Default",
+                            "Transform": {
+                                "LocalPosition": {
+                                    "X": 0.0,
+                                    "Y": 0.0,
+                                    "Z": 0.0
+                                },
+                                "LocalEulerAngles": {
+                                    "X": 0.0,
+                                    "Y": 0.0,
+                                    "Z": 0.0
+                                },
+                                "LocalScale": {
+                                    "X": 1.0,
+                                    "Y": 1.0,
+                                    "Z": 1.0
+                                },
+                                "RectTransform": {
+                                    "AnchoredPosition": {
+                                        "X": 0.0,
+                                        "Y": 0.0
+                                    },
+                                    "SizeDelta": {
+                                        "X": 100.0,
+                                        "Y": 100.0
+                                    },
+                                    "AnchorMin": {
+                                        "X": 0.5,
+                                        "Y": 0.5
+                                    },
+                                    "AnchorMax": {
+                                        "X": 0.5,
+                                        "Y": 0.5
+                                    },
+                                    "Pivot": {
+                                        "X": 0.5,
+                                        "Y": 0.5
+                                    }
+                                }
+                            },
+                            "Components": [
+                                {
+                                    "TypeName": "Text",
+                                    "Enabled": true,
+                                    "StateEntries": [
+                                        {
+                                            "Key": "Alignment",
+                                            "Value": "MiddleCenter"
+                                        },
+                                        {
+                                            "Key": "Color",
+                                            "Value": "#FFFFFFFF"
+                                        },
+                                        {
+                                            "Key": "FontSize",
+                                            "Value": "24"
+                                        },
+                                        {
+                                            "Key": "Text",
+                                            "Value": "Exit"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "Children": []
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "Name": "SettingsView",
+            "ActiveSelf": false,
+            "ActiveInHierarchy": false,
+            "Tag": "Untagged",
+            "Layer": "Default",
+            "Transform": {
+                "LocalPosition": {
+                    "X": 0.0,
+                    "Y": 0.0,
+                    "Z": 0.0
+                },
+                "LocalEulerAngles": {
+                    "X": 0.0,
+                    "Y": 0.0,
+                    "Z": 0.0
+                },
+                "LocalScale": {
+                    "X": 1.0,
+                    "Y": 1.0,
+                    "Z": 1.0
+                },
+                "RectTransform": {
+                    "AnchoredPosition": {
+                        "X": 0.0,
+                        "Y": 0.0
+                    },
+                    "SizeDelta": {
+                        "X": 0.0,
+                        "Y": 0.0
+                    },
+                    "AnchorMin": {
+                        "X": 0.0,
+                        "Y": 0.0
+                    },
+                    "AnchorMax": {
+                        "X": 1.0,
+                        "Y": 1.0
+                    },
+                    "Pivot": {
+                        "X": 0.5,
+                        "Y": 0.5
+                    }
+                }
+            },
+            "Components": [
+                {
+                    "TypeName": "Image",
+                    "Enabled": true,
+                    "StateEntries": [
+                        {
+                            "Key": "Color",
+                            "Value": "#1A1A1AE6"
+                        },
+                        {
+                            "Key": "RaycastTarget",
+                            "Value": "true"
+                        },
+                        {
+                            "Key": "Sprite",
+                            "Value": "null"
+                        },
+                        {
+                            "Key": "Type",
+                            "Value": "Simple"
+                        }
+                    ]
+                }
+            ],
+            "Children": [
+                {
+                    "Name": "SettingsTitleText",
+                    "ActiveSelf": true,
+                    "ActiveInHierarchy": false,
+                    "Tag": "Untagged",
+                    "Layer": "Default",
+                    "Transform": {
+                        "LocalPosition": {
+                            "X": 0.0,
+                            "Y": 0.0,
+                            "Z": 0.0
+                        },
+                        "LocalEulerAngles": {
+                            "X": 0.0,
+                            "Y": 0.0,
+                            "Z": 0.0
+                        },
+                        "LocalScale": {
+                            "X": 1.0,
+                            "Y": 1.0,
+                            "Z": 1.0
+                        },
+                        "RectTransform": {
+                            "AnchoredPosition": {
+                                "X": 0.0,
+                                "Y": 0.0
+                            },
+                            "SizeDelta": {
+                                "X": 100.0,
+                                "Y": 100.0
+                            },
+                            "AnchorMin": {
+                                "X": 0.5,
+                                "Y": 0.5
+                            },
+                            "AnchorMax": {
+                                "X": 0.5,
+                                "Y": 0.5
+                            },
+                            "Pivot": {
+                                "X": 0.5,
+                                "Y": 0.5
+                            }
+                        }
+                    },
+                    "Components": [
+                        {
+                            "TypeName": "Text",
+                            "Enabled": true,
+                            "StateEntries": [
+                                {
+                                    "Key": "Alignment",
+                                    "Value": "MiddleCenter"
+                                },
+                                {
+                                    "Key": "Color",
+                                    "Value": "#FFFFFFFF"
+                                },
+                                {
+                                    "Key": "FontSize",
+                                    "Value": "24"
+                                },
+                                {
+                                    "Key": "Text",
+                                    "Value": "Settings"
+                                }
+                            ]
+                        }
+                    ],
+                    "Children": []
+                },
+                {
+                    "Name": "SettingsBackButton",
+                    "ActiveSelf": true,
+                    "ActiveInHierarchy": false,
+                    "Tag": "Untagged",
+                    "Layer": "Default",
+                    "Transform": {
+                        "LocalPosition": {
+                            "X": 0.0,
+                            "Y": 0.0,
+                            "Z": 0.0
+                        },
+                        "LocalEulerAngles": {
+                            "X": 0.0,
+                            "Y": 0.0,
+                            "Z": 0.0
+                        },
+                        "LocalScale": {
+                            "X": 1.0,
+                            "Y": 1.0,
+                            "Z": 1.0
+                        },
+                        "RectTransform": {
+                            "AnchoredPosition": {
+                                "X": 0.0,
+                                "Y": 0.0
+                            },
+                            "SizeDelta": {
+                                "X": 100.0,
+                                "Y": 100.0
+                            },
+                            "AnchorMin": {
+                                "X": 0.5,
+                                "Y": 0.5
+                            },
+                            "AnchorMax": {
+                                "X": 0.5,
+                                "Y": 0.5
+                            },
+                            "Pivot": {
+                                "X": 0.5,
+                                "Y": 0.5
+                            }
+                        }
+                    },
+                    "Components": [
+                        {
+                            "TypeName": "Image",
+                            "Enabled": true,
+                            "StateEntries": [
+                                {
+                                    "Key": "Color",
+                                    "Value": "#808080FF"
+                                },
+                                {
+                                    "Key": "RaycastTarget",
+                                    "Value": "true"
+                                },
+                                {
+                                    "Key": "Sprite",
+                                    "Value": "null"
+                                },
+                                {
+                                    "Key": "Type",
+                                    "Value": "Simple"
+                                }
+                            ]
+                        },
+                        {
+                            "TypeName": "Button",
+                            "Enabled": true,
+                            "StateEntries": [
+                                {
+                                    "Key": "Interactable",
+                                    "Value": "true"
+                                },
+                                {
+                                    "Key": "IsSelected",
+                                    "Value": "false"
+                                },
+                                {
+                                    "Key": "PersistentListenerCount",
+                                    "Value": "0"
+                                },
+                                {
+                                    "Key": "SelectionState",
+                                    "Value": "Normal"
+                                }
+                            ]
+                        },
+                        {
+                            "TypeName": "MockButtonUI",
+                            "Enabled": true,
+                            "StateEntries": [
+                                {
+                                    "Key": "Button",
+                                    "Value": "Ref<Button>(SettingsBackButton)"
+                                },
+                                {
+                                    "Key": "IsHighlighted",
+                                    "Value": "false"
+                                },
+                                {
+                                    "Key": "IsSelected",
+                                    "Value": "false"
+                                },
+                                {
+                                    "Key": "Label",
+                                    "Value": "Ref<Text>(Text)"
+                                },
+                                {
+                                    "Key": "_button",
+                                    "Value": "Ref<Button>(SettingsBackButton)"
+                                },
+                                {
+                                    "Key": "_label",
+                                    "Value": "null"
+                                }
+                            ]
+                        }
+                    ],
+                    "Children": [
+                        {
+                            "Name": "Text",
+                            "ActiveSelf": true,
+                            "ActiveInHierarchy": false,
+                            "Tag": "Untagged",
+                            "Layer": "Default",
+                            "Transform": {
+                                "LocalPosition": {
+                                    "X": 0.0,
+                                    "Y": 0.0,
+                                    "Z": 0.0
+                                },
+                                "LocalEulerAngles": {
+                                    "X": 0.0,
+                                    "Y": 0.0,
+                                    "Z": 0.0
+                                },
+                                "LocalScale": {
+                                    "X": 1.0,
+                                    "Y": 1.0,
+                                    "Z": 1.0
+                                },
+                                "RectTransform": {
+                                    "AnchoredPosition": {
+                                        "X": 0.0,
+                                        "Y": 0.0
+                                    },
+                                    "SizeDelta": {
+                                        "X": 100.0,
+                                        "Y": 100.0
+                                    },
+                                    "AnchorMin": {
+                                        "X": 0.5,
+                                        "Y": 0.5
+                                    },
+                                    "AnchorMax": {
+                                        "X": 0.5,
+                                        "Y": 0.5
+                                    },
+                                    "Pivot": {
+                                        "X": 0.5,
+                                        "Y": 0.5
+                                    }
+                                }
+                            },
+                            "Components": [
+                                {
+                                    "TypeName": "Text",
+                                    "Enabled": true,
+                                    "StateEntries": [
+                                        {
+                                            "Key": "Alignment",
+                                            "Value": "MiddleCenter"
+                                        },
+                                        {
+                                            "Key": "Color",
+                                            "Value": "#FFFFFFFF"
+                                        },
+                                        {
+                                            "Key": "FontSize",
+                                            "Value": "24"
+                                        },
+                                        {
+                                            "Key": "Text",
+                                            "Value": "Back"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "Children": []
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "Name": "GameView",
+            "ActiveSelf": false,
+            "ActiveInHierarchy": false,
+            "Tag": "Untagged",
+            "Layer": "Default",
+            "Transform": {
+                "LocalPosition": {
+                    "X": 0.0,
+                    "Y": 0.0,
+                    "Z": 0.0
+                },
+                "LocalEulerAngles": {
+                    "X": 0.0,
+                    "Y": 0.0,
+                    "Z": 0.0
+                },
+                "LocalScale": {
+                    "X": 1.0,
+                    "Y": 1.0,
+                    "Z": 1.0
+                },
+                "RectTransform": {
+                    "AnchoredPosition": {
+                        "X": 0.0,
+                        "Y": 0.0
+                    },
+                    "SizeDelta": {
+                        "X": 0.0,
+                        "Y": 0.0
+                    },
+                    "AnchorMin": {
+                        "X": 0.0,
+                        "Y": 0.0
+                    },
+                    "AnchorMax": {
+                        "X": 1.0,
+                        "Y": 1.0
+                    },
+                    "Pivot": {
+                        "X": 0.5,
+                        "Y": 0.5
+                    }
+                }
+            },
+            "Components": [
+                {
+                    "TypeName": "Image",
+                    "Enabled": true,
+                    "StateEntries": [
+                        {
+                            "Key": "Color",
+                            "Value": "#1A1A1AE6"
+                        },
+                        {
+                            "Key": "RaycastTarget",
+                            "Value": "true"
+                        },
+                        {
+                            "Key": "Sprite",
+                            "Value": "null"
+                        },
+                        {
+                            "Key": "Type",
+                            "Value": "Simple"
+                        }
+                    ]
+                }
+            ],
+            "Children": [
+                {
+                    "Name": "GameTitleText",
+                    "ActiveSelf": true,
+                    "ActiveInHierarchy": false,
+                    "Tag": "Untagged",
+                    "Layer": "Default",
+                    "Transform": {
+                        "LocalPosition": {
+                            "X": 0.0,
+                            "Y": 0.0,
+                            "Z": 0.0
+                        },
+                        "LocalEulerAngles": {
+                            "X": 0.0,
+                            "Y": 0.0,
+                            "Z": 0.0
+                        },
+                        "LocalScale": {
+                            "X": 1.0,
+                            "Y": 1.0,
+                            "Z": 1.0
+                        },
+                        "RectTransform": {
+                            "AnchoredPosition": {
+                                "X": 0.0,
+                                "Y": 0.0
+                            },
+                            "SizeDelta": {
+                                "X": 100.0,
+                                "Y": 100.0
+                            },
+                            "AnchorMin": {
+                                "X": 0.5,
+                                "Y": 0.5
+                            },
+                            "AnchorMax": {
+                                "X": 0.5,
+                                "Y": 0.5
+                            },
+                            "Pivot": {
+                                "X": 0.5,
+                                "Y": 0.5
+                            }
+                        }
+                    },
+                    "Components": [
+                        {
+                            "TypeName": "Text",
+                            "Enabled": true,
+                            "StateEntries": [
+                                {
+                                    "Key": "Alignment",
+                                    "Value": "MiddleCenter"
+                                },
+                                {
+                                    "Key": "Color",
+                                    "Value": "#FFFFFFFF"
+                                },
+                                {
+                                    "Key": "FontSize",
+                                    "Value": "24"
+                                },
+                                {
+                                    "Key": "Text",
+                                    "Value": "Game Screen"
+                                }
+                            ]
+                        }
+                    ],
+                    "Children": []
+                },
+                {
+                    "Name": "GameBackButton",
+                    "ActiveSelf": true,
+                    "ActiveInHierarchy": false,
+                    "Tag": "Untagged",
+                    "Layer": "Default",
+                    "Transform": {
+                        "LocalPosition": {
+                            "X": 0.0,
+                            "Y": 0.0,
+                            "Z": 0.0
+                        },
+                        "LocalEulerAngles": {
+                            "X": 0.0,
+                            "Y": 0.0,
+                            "Z": 0.0
+                        },
+                        "LocalScale": {
+                            "X": 1.0,
+                            "Y": 1.0,
+                            "Z": 1.0
+                        },
+                        "RectTransform": {
+                            "AnchoredPosition": {
+                                "X": 0.0,
+                                "Y": 0.0
+                            },
+                            "SizeDelta": {
+                                "X": 100.0,
+                                "Y": 100.0
+                            },
+                            "AnchorMin": {
+                                "X": 0.5,
+                                "Y": 0.5
+                            },
+                            "AnchorMax": {
+                                "X": 0.5,
+                                "Y": 0.5
+                            },
+                            "Pivot": {
+                                "X": 0.5,
+                                "Y": 0.5
+                            }
+                        }
+                    },
+                    "Components": [
+                        {
+                            "TypeName": "Image",
+                            "Enabled": true,
+                            "StateEntries": [
+                                {
+                                    "Key": "Color",
+                                    "Value": "#808080FF"
+                                },
+                                {
+                                    "Key": "RaycastTarget",
+                                    "Value": "true"
+                                },
+                                {
+                                    "Key": "Sprite",
+                                    "Value": "null"
+                                },
+                                {
+                                    "Key": "Type",
+                                    "Value": "Simple"
+                                }
+                            ]
+                        },
+                        {
+                            "TypeName": "Button",
+                            "Enabled": true,
+                            "StateEntries": [
+                                {
+                                    "Key": "Interactable",
+                                    "Value": "true"
+                                },
+                                {
+                                    "Key": "IsSelected",
+                                    "Value": "false"
+                                },
+                                {
+                                    "Key": "PersistentListenerCount",
+                                    "Value": "0"
+                                },
+                                {
+                                    "Key": "SelectionState",
+                                    "Value": "Normal"
+                                }
+                            ]
+                        },
+                        {
+                            "TypeName": "MockButtonUI",
+                            "Enabled": true,
+                            "StateEntries": [
+                                {
+                                    "Key": "Button",
+                                    "Value": "Ref<Button>(GameBackButton)"
+                                },
+                                {
+                                    "Key": "IsHighlighted",
+                                    "Value": "false"
+                                },
+                                {
+                                    "Key": "IsSelected",
+                                    "Value": "false"
+                                },
+                                {
+                                    "Key": "Label",
+                                    "Value": "Ref<Text>(Text)"
+                                },
+                                {
+                                    "Key": "_button",
+                                    "Value": "Ref<Button>(GameBackButton)"
+                                },
+                                {
+                                    "Key": "_label",
+                                    "Value": "null"
+                                }
+                            ]
+                        }
+                    ],
+                    "Children": [
+                        {
+                            "Name": "Text",
+                            "ActiveSelf": true,
+                            "ActiveInHierarchy": false,
+                            "Tag": "Untagged",
+                            "Layer": "Default",
+                            "Transform": {
+                                "LocalPosition": {
+                                    "X": 0.0,
+                                    "Y": 0.0,
+                                    "Z": 0.0
+                                },
+                                "LocalEulerAngles": {
+                                    "X": 0.0,
+                                    "Y": 0.0,
+                                    "Z": 0.0
+                                },
+                                "LocalScale": {
+                                    "X": 1.0,
+                                    "Y": 1.0,
+                                    "Z": 1.0
+                                },
+                                "RectTransform": {
+                                    "AnchoredPosition": {
+                                        "X": 0.0,
+                                        "Y": 0.0
+                                    },
+                                    "SizeDelta": {
+                                        "X": 100.0,
+                                        "Y": 100.0
+                                    },
+                                    "AnchorMin": {
+                                        "X": 0.5,
+                                        "Y": 0.5
+                                    },
+                                    "AnchorMax": {
+                                        "X": 0.5,
+                                        "Y": 0.5
+                                    },
+                                    "Pivot": {
+                                        "X": 0.5,
+                                        "Y": 0.5
+                                    }
+                                }
+                            },
+                            "Components": [
+                                {
+                                    "TypeName": "Text",
+                                    "Enabled": true,
+                                    "StateEntries": [
+                                        {
+                                            "Key": "Alignment",
+                                            "Value": "MiddleCenter"
+                                        },
+                                        {
+                                            "Key": "Color",
+                                            "Value": "#FFFFFFFF"
+                                        },
+                                        {
+                                            "Key": "FontSize",
+                                            "Value": "24"
+                                        },
+                                        {
+                                            "Key": "Text",
+                                            "Value": "Back"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "Children": []
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
