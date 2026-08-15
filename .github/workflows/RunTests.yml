@@ -68,11 +68,12 @@ jobs:
           echo "Requesting online license activation..."
           unity-editor \
             -logFile /dev/stdout \
+            -batchmode \
+            -nographics \
             -quit \
             -serial "$UNITY_SERIAL" \
             -username "$UNITY_EMAIL" \
-            -password "$UNITY_PASSWORD" \
-            -projectPath "$GITHUB_WORKSPACE"
+            -password "$UNITY_PASSWORD"
 
       - name: Run tests
         env:
@@ -89,8 +90,9 @@ jobs:
           echo "Returning Unity license seat..."
           unity-editor \
             -logFile /dev/stdout \
+            -batchmode \
+            -nographics \
             -quit \
             -returnlicense \
             -username "$UNITY_EMAIL" \
-            -password "$UNITY_PASSWORD" \
-            -projectPath "$GITHUB_WORKSPACE"
+            -password "$UNITY_PASSWORD"
