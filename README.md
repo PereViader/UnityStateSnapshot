@@ -1,3 +1,6 @@
+[![Test and publish](https://github.com/PereViader/UnityStateSnapshot/actions/workflows/TestAndPublish.yml/badge.svg)](https://github.com/PereViader/UnityStateSnapshot/actions/workflows/TestAndPublish.yml) ![Unity version 6000.0](https://img.shields.io/badge/Unity-6000.0-57b9d3.svg?style=flat&logo=unity) [![GitHub Release](https://img.shields.io/github/v/release/PereViader/UnityStateSnapshot?include_prereleases)](https://github.com/PereViader/UnityStateSnapshot/releases) [![openupm](https://img.shields.io/npm/v/com.pereviader.unitystatessnapshot?label=openupm&registry_uri=https://package.openupm.com)](https://openupm.com/packages/com.pereviader.unitystatessnapshot/)
+
+
 # Unity State Snapshot
 
 > Effortless regression testing for Unity: capture, inspect, and verify complex UI hierarchies, components, and scene states against deterministic baselines.
@@ -36,25 +39,14 @@ public void MainMenu_InitialState_MatchesSnapshot()
 
 ---
 
-## Installation
+## Installation & Setup
 
-### Via Unity Package Manager (Git URL)
-1. Open the Unity Package Manager (`Window` > `Package Manager`).
-2. Click `+` and select **Add package from git URL...**
-3. Enter:
-   ```text
-   https://github.com/pereviader/UnityStateSnapshot.git?path=Packages/com.pereviader.unitystatessnapshot
-   ```
+### 1. Requirements
+- **Unity**: Version 6000.0 or higher.
 
-### Via `manifest.json`
-Add the package to your `Packages/manifest.json`:
-```json
-{
-  "dependencies": {
-    "com.pereviader.unitystatessnapshot": "https://github.com/pereviader/UnityStateSnapshot.git?path=Packages/com.pereviader.unitystatessnapshot"
-  }
-}
-```
+### 2. Install the Package
+
+[Install from OpenUPM](https://openupm.com/packages/com.pereviader.unitystatessnapshot/#modal-manualinstallation).
 
 ---
 

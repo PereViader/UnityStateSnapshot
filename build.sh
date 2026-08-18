@@ -22,6 +22,17 @@ echo "Copying package contents..."
 # cp -R with trailing '/.' copies all contents of source, including hidden files/directories
 cp -R "$PACKAGE_SRC/." "$BUILD_DIR/"
 
+# Copy root README.md and LICENSE into the build folder
+if [ -f "README.md" ]; then
+  echo "Copying root README.md to build directory..."
+  cp -f "README.md" "$BUILD_DIR/README.md"
+fi
+
+if [ -f "LICENSE" ]; then
+  echo "Copying LICENSE to build directory..."
+  cp -f "LICENSE" "$BUILD_DIR/LICENSE.md"
+fi
+
 # 2.5. Update version in package.json from .env.shared
 if [ -f ".env.shared" ]; then
   VERSION_VAL=$(source .env.shared && echo "$VERSION")
